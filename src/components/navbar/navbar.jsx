@@ -11,7 +11,7 @@ const Navbar = () => {
     setShowMenu(!showMenu);
   };
   return (
-    <nav className="h-16 flex justify-between md:justify-center md:items-center  bg-[#212731] sm:bg-red-500 md:bg-blue-500  lg:bg-pink-500 xl:bg-green-500 2xl:bg-orange-500 ">
+    <nav className="h-16 flex justify-between md:justify-center md:items-center  bg-[#212731] ">
       <div className="flex px-5 md:px-0 w-full items-center justify-between md:justify-center gap-x-14 ">
         <div className="flex h-9 px-1 gap-1  rounded-md items-center border bg-white w-max">
           <Image
