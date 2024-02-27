@@ -1,3 +1,4 @@
+import RelatedDeals from "@/components/related_deals/ralated_deals";
 import SignUp from "@/components/signup/signup";
 import React from "react";
 
@@ -8,6 +9,7 @@ const Home = () => {
         Best Website builder in the US
       </h1>
       <div>
+        <RelatedDeals />
         <SignUp />
       </div>
     </div>
