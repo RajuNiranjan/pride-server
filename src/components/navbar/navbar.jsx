@@ -45,7 +45,7 @@ const Navbar = () => {
           )}
         </div>
         {showMenu && (
-          <div className="absolute w-[200px] left-0 h-full bg-[#eaeaea] shadow-md border text-black top-[64px] transition-all duration-300 ease-in-out">
+          <div className="absolute w-[200px] md:hidden left-0 h-screen  bg-[#eaeaea] shadow-md border text-black top-[64px]">
             <ul className="flex flex-col  items-start text-sm border gap-1   p-1 justify-between  ">
               <li className="cursor-pointer hover:bg-white w-full p-1 rounded-md ">
                 Categoried

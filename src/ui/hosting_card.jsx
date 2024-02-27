@@ -127,7 +127,7 @@ const HostingCard = () => {
                 </div>
               </div>
               {item?.box && (
-                <div className="w-full ml-10 flex flex-col gap-3 rounded-md p-3 bg-[#FFF4ED]">
+                <div className="w-full lg:ml-10 flex flex-col gap-3 rounded-md p-3 bg-[#FFF4ED]">
                   {item?.box?.map((item, index) => (
                     <div key={index} className="flex items-center gap-2 ">
                       <p className="bg-white w-10 flex justify-center items-center text-[#1B88F4] rounded-md h-7">
