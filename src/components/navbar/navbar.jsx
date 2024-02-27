@@ -11,7 +11,7 @@ const Navbar = () => {
     setShowMenu(!showMenu);
   };
   return (
-    <nav className="h-16 flex justify-between md:justify-center md:items-center  bg-[#212731] ">
+    <nav className="h-16 flex justify-between md:justify-center md:items-center  bg-[#212731] sticky top-0 z-30 ">
       <div className="flex px-5 md:px-0 w-full items-center justify-between md:justify-center gap-x-14 ">
         <div className="flex h-9 px-1 gap-1  rounded-md items-center border bg-white w-max">
           <Image
@@ -28,7 +28,7 @@ const Navbar = () => {
           />
         </div>
         <div className="hidden md:inline">
-          <ul className="flex items-center gap-5 justify-between text-[#D1D6DA] ">
+          <ul className="flex items-center gap-20 justify-between text-[#D1D6DA] ">
             <li className="cursor-pointer ">Categoried</li>
             <li className="cursor-pointer ">Website Builders</li>
             <li className="cursor-pointer ">Today&apos;s Deals</li>
