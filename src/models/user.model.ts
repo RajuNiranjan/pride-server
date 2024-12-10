@@ -3,7 +3,7 @@ import { Document } from 'mongoose';
 import { Gender } from 'src/constants/Gender';
 
 @Schema({ timestamps: true })
-export class UserSchema extends Document {
+export class User extends Document {
   @Prop({ required: true, unique: true })
   userName: string;
 
@@ -41,4 +41,4 @@ export class UserSchema extends Document {
   acceptTerms: boolean;
 }
 
-export const UserModel = SchemaFactory.createForClass(UserSchema);
+export const UserModel = SchemaFactory.createForClass(User);
